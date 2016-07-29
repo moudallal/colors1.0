@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moudallal</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Webpage styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="st-container" class="st-container">
+        <nav class="st-menu">
+            <h2><span class="blue">c</span><span class="red">o</span><span class="green">l</span><span class="purple">o</span><span class="turquoise">r</span><span class="dark-blue">s</span></h2>
+            <ul>
+                <li id="homeButton"><a>Home</a></li>
+                <li id="aboutButton"><a>About</a></li>
+                <li id="skillButton"><a>Skills</a></li>
+                <li id="workButton"><a>Work</a></li>
+                <li id="funButton"><a>Fun Stuff</a></li>
+                <li id="feedbackButton"><a>Feedback</a></li>
+                <li id="contactButton"><a>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="head">
+        <a class="logo" id="home"><img src="img/logo.png" class="logo-image"></a>
+        <a class="menu" id="menu"><img src="img/menu.png" class="menu-image"></a>
+    </div>
+    <div id="main-container">
+        <section class="section main">
+            <span class="element" id="typed"></span>
+            <p class="center-block" id="tooltip">Don't be shy. Click it</p>
+            <a class="down-arrow" id="scrollButton"><img src="img/down-arrow.png" class="down-arrow-image"></a>
+        </section>
+        <section class="padded-section" id="second">
+            <h1 class="header center-block">It's just me, myself, and I</h1>
+            <div class="description clearfix">
+                <div class="column">
+                    <img src="img/avatar.jpg" class="avatar">
+                </div>
+                <div class="column">
+                    <p class="bio"><a data="Me, myself and I - YouTube" href="https://www.youtube.com/watch?v=bSfpSOBD30U" class="funny-link redirect" target="_blank"><b>Solo ride until I die...</b></a> Hello there! I'm guessing you already know <a class="funny-link no-icon-link" id="name" data="Mohamad Moudallal"><b>my name</b></a>. I am a teenager developer and designer. I am specialised in iOS Developer, front-end web development and user interface design. I started designing when I was still 10 years old, more precisely graphic design but then left that behind and went in UI design and a bit of UX. While I started coding when I was 12 years old, at the beginning with NXT robots and casual problem solving with Python language. After that, I went into iOS development with Swift and overall front end web development. I'm currently based in <a href="https://www.google.com.lb/maps/place/Beirut/@33.8892456,35.4865231,14z/data=!3m1!4b1!4m5!3m4!1s0x151f17215880a78f:0x729182bae99836b4!8m2!3d33.8937913!4d35.5017767?hl=en" class="funny-link redirect" data="Google Maps" target="_blank">Beirut, Lebanon</a>. The other thing is that I'm a professional speedcuber (it means I can solve a Rubik's cube in less than 15 seconds), don't worry, you'll see a video of me solving the cube in 7 seconds in the <a href="https://www.youtube.com/watch?v=XSf1OqwsDxc" class="funny-link redirect" data="Or right now" target="_blank">fun stuff section.</a> Right below, you'll see my skills and my portfolio. Wanna read my full story? Click this beautiful button right down here.
+                    </p>
+                    <button type='submit' class="btn portfolio-link" href="#storyModal" data-toggle="modal">Beautiful Button</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="padded-section" id="third">
+            <div class="skills-container">
+                <h1 class="header center-block">
+                    <span>Skills</span>
+                </h1>
+                <p class="head-sm">I have a lot of skills, but here are my main ones</p>
+                <br>
+                <br>
+                <div class="center-block skills">
+                    <!--SKILLST-->
+                    <div class="skillst center-block">
+                        <div class="skillbar" data-percent="75%">
+                            <div class="title">
+                                Swift
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="70%">
+                            <div class="title">
+                                HTML 5
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="80%">
+                            <div class="title">
+                                CSS 3
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="85%">
+                            <div class="title">
+                                Javascript (Front-End)
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="90%">
+                            <div class="title">
+                                UI
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="65%">
+                            <div class="title">
+                                Graphic
+                            </div>
+                            <div class="count-bar">
+                                <div class="count"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.SKILLST END-->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="padded-section" id="fourth">
+            <h1 class="header center-block">
+                <span>Work</span>
+            </h1>
+            <p class="head-sm">Main projects, side projects, almost everything</p>
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="img/colors.png" alt="img01">
+                        <figcaption>
+                            <h3>Colors Website</h3>
+                            <span>The website you're looking at</span>
+                            <a href="#portfolioModal1" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/tourismap.png" alt="img02">
+                        <figcaption>
+                            <h3>Tourismap</h3>
+                            <span>App for WWDC Scholarship</span>
+                            <a href="#portfolioModal2" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/raspberrypi.png" alt="img03">
+                        <figcaption>
+                            <h3>Home Security System</h3>
+                            <span>Project for Raspberry Pi Comp</span>
+                            <a href="#portfolioModal3" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/lln.png" alt="img04">
+                        <figcaption>
+                            <h3>Le Lycee National</h3>
+                            <span>An iOS app for my school</span>
+                            <a href="#portfolioModal4" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/igrab.png" alt="img05">
+                        <figcaption>
+                            <h3>iGrab Website</h3>
+                            <span>Software Providing Website</span>
+                            <a href="#portfolioModal5" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/fbredesign.png" alt="img06">
+                        <figcaption>
+                            <h3>Facebook Redesign</h3>
+                            <span>Redesigned Facebook UI</span>
+                            <a href="#portfolioModal6" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/proonlinestore.png" alt="img06">
+                        <figcaption>
+                            <h3>Pro Online Store Logo</h3>
+                            <span>Logo for an entrepreneurship</span>
+                            <a href="#portfolioModal7" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/ygwebsite.png" alt="img06">
+                        <figcaption>
+                            <h3>YG Website</h3>
+                            <span>A client's portfolio website</span>
+                            <a href="#portfolioModal8" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/linecity.png" alt="img06">
+                        <figcaption>
+                            <h3>Line Art City</h3>
+                            <span>City made with vectors</span>
+                            <a href="#portfolioModal9" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Fun Stuff Seciton -->
+
+        <section class="padded-section" id="fifth">
+            <h1 class="header center-block">
+                <span>Fun Stuff</span>
+            </h1>
+            <p class="head-sm">Rubik's cubes, juggling and more fun stuff</p>
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="img/cubing1.png" alt="img01">
+                        <figcaption>
+                            <h3>7.93 seconds solve</h3>
+                            <span>The cube solved in 7 seconds</span>
+                            <a href="#funModal1" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/cubing2.png" alt="img02">
+                        <figcaption>
+                            <h3>8.70 seconds solve</h3>
+                            <span>The cube solved in 8 seconds</span>
+                            <a href="#funModal2" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/cubing3.png" alt="img03">
+                        <figcaption>
+                            <h3>16.97 seconds solve</h3>
+                            <span>The cube solved in 16 seconds</span>
+                            <a href="#funModal3" class="funny-link portfolio-link" data-toggle="modal">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Feedback Section -->
+
+        <section class="padded-section" id="sixth">
+            <h1 class="header center-block">
+                <span>Feedback</span>
+            </h1>
+            <p class="head-sm">Feedback and testimonial from clients and friends</p>
+            <br>
+            <br>
+            <div class="testimonial">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><i>A great designer. He chooses nice color palettes. Regarding code he really is very good in Swift and helped me with it, front-end and back-end.</i></p>
+                        <h3><b>Firas Koussa</b></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <p><i>One of the smartest teens out there and a great graphic designer. He did well designing my logo. I'm very impressed by his skills.</i></p>
+                        <h3><b>Nader Chams</b></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <p><i>Creative designer and efficient developer. Mohamad helped me design the user interface of my apps and with the code in Swift.</i></p>
+                        <h3><b>Sami Sharaf</b></h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="padded-section" id="seventh">
+            <h1 class="header center-block">
+                <span>Contact</span>
+            </h1>
+            <p class="head-sm">Contact me right here</p>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <input type="text" class="form-control input-field center-block input-text" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <input type="email" class="form-control input-field center-block input-text" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <input type="tel" class="form-control input-field center-block input-text" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <textarea rows="5" class="form-control input-area center-block input-text" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn center-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Bunker</h3>
+                            <br>
+                            <p>Currently based in my parents' house :)<br>But we can meet at <a href="https://www.google.com.lb/maps/place/Hamra,+Beirut/@33.8966747,35.4809856,17z/data=!3m1!4b1!4m5!3m4!1s0x151f17283e7e3ced:0x740bcfc330ca9eb0!8m2!3d33.8966196!4d35.4823007?hl=en" class="funny-link" target="_blank">Hamra, Beirut</a></p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Around the Web</h3>
+                            <br>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://www.facebook.com/mhmoudallal" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/mhthedev" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/MhMoudallal" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCnCs97QNBDFwuN5-RvjzkAw" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-youtube-play"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-behance"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Stay Tuned</h3>
+                            <br>
+                            <p>If you want to stay tuned check out my <a href="" class="funny-link" target="_blank">blog</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            &copy; Mohamad Moudallal <span class="currentYear"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modals -->
+
+        <!-- Story Modal -->
+        <div class="portfolio-modal modal fade" id="storyModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <div>
+                                    <h2>Let me introduce my self.</h2>
+                                    <p>Hello, my name is Mohamad Moudallal. I'm a 15 years old teen ager born in the 00's in Beirut, Lebanon. I'm just like any other person in my age: I'm a daredevil, I like adventures, music and hate school. But, there is something I have in my life that makes me unique and different from the others.</p>
+                                    <br>
+                                    <h2>It all started at the 7th grade.</h2>
+                                    <p>Although I loved computers since I was 3 years old, at 7th grade it became serious. Back then, we had activities in school every Monday and Friday, I wanted to join the table tennis club, but, a new club appeared called TLE: The Little Engineer. It's a group founded in Lebanon, that teaches youth robots: building and programming them. So, I joined the group for two years and mastered Lego's NXT robots with the help of the friendly instructors. Throughout the years, I became more interested in programming, and I started learning one of the most fun and easy to understand languages: Python. I started to get to know the basics of every programming language and soon, built many Python Programs to help me with school assignments.</p>
+                                    <br>
+                                    <h2>8th grade</h2>
+                                    <p>After I finished the book that teaches Python, I became interested in websites, their structures and their design. With the help of Codecademy.com I started learning HTML & CSS, then I learned Javascript and jQuery, of course with the help of more books and an amazing online course on Udemy by Rob Percival.</p>
+                                    <br>
+                                    <h2>9th grade(these days)</h2>
+                                    <p>In the end of the summer vacation, because of my high grades that I got on the finals (8th grade), my father bought me an Apple MacBook Pro, and I decided to take advantage of it and learn iOS Development. Before the start of school, I bought an online course by my same British instructor Rob to teach me iOS Development with Apple's newest language, Swift. As many other languages I know, I started with the basics and now I think I'm obsessed with Swift. I also took some iOS design lessons by a talented instructor and designer, Meng To. With the help of these two instructors, AppCoda for their very useful tutorials and their amazing book, TeamTreeHouse for their courses about Swift, UI 8 for their UI kits and courses, the amazing projects on GitHub and the people on StackOverflow, I became one of the most talented iOS Developers at a very young age: at 14 years old, I'm a Computer Programmer, a NXT Robotic Expert, a Web Developer and an iOS Developer. Doesn't that sound great?</p>
+                                    <br>
+                                    <h2>Any Other Interests?</h2>
+                                    <p>Of course I'm not only addicted to Code, I have other passions. Since grade 6, I started learning graphic designing wether it's editing photos using Photoshop or creating great logos and wallpapers using Illustrator, I became a graphic designer. Since I was a child, I felled in love in Guitar. I loved the sounds and the music played using the guitar. That's why I started taking guitar lessons for a couple of years before I was getting into Graphics and Computer Science when I had to leave my guitar lessons sadly... I also love typography art and calligraphy and everything related to writing a quote with different styles using a breathtaking background. Isn't that what typography art is about? Or what I think it is?</p>
+                                    <br>
+                                    <h2>What am I doing these days?</h2>
+                                    <p>Learning doesn't stop! Everyday, I discover something new, wether it's about technology or science or anything that interests me. I'll also start working soon on several websites and apps projects with Ziad Alame from TWC (Teens Who Code), a great instructor and coder. Plus, I started teaching my friends code to share the knowledge in the society. I also have my everyday routine: get up early, school, home works, sleep early...and so on.</p>
+                                    <br>
+                                    <h2>So seriously, who am I?</h2>
+                                    <p>In a nutshell, I'm a:</p>
+                                    <ol>
+                                        <li>Teenager</li>
+                                        <li>Developer (Computer, Web, iOS)</li>
+                                        <li>Designer</li>
+                                        <li>Teacher (Code)</li>
+                                        <li>Writer (If you agree)</li>
+                                    </ol>
+                                    <p>And...you know...</p>
+                                    <br>
+                                    <h2>To whom should I say thanks?</h2>
+                                    <p>I want to thank every body that helped me achieve my goal and make my dreams come true and they are:</p>
+                                    <ol>
+                                        <li>Starting with my parents for supporting me on the way</li>
+                                        <li>My friend Ali El Zein for giving me an idea of what programming was like (because his uncle was a developer)</li>
+                                        <li>TLE group for teaching me robotics and especially Hassan Khalifeh the one who pushed me and gave me extra assignments to improve my skills</li>
+                                        <li>My online instructors, blogs and websites: Rob Percival, Meng To, AppCoda, UI 8, GitHub, StackOverflow, Codecademy, Code.org. and many others that I won't have time to mention</li>
+                                        <li>TWC for working with me on projects and teaching more advanced skills, meetings and talks to inspire people</li>
+                                        <li>My cousins and friends for supporting me.</li>
+                                    </ol>
+                                    <p>I hope you know me well right now! Friends? :)</p>
+                                    <br>
+                                    <br>
+                                </div>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Colors Website</h2>
+                                <img src="img/colors.png" class="img-responsive img-centered" alt="">
+                                <p>This is one of my projects I most feel proud of. This portfolio website was made completely by myself. With thousands lines of code and weeks of work, I present you my portfolio website.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            Myself
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>Summer 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Web Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Tourismap App</h2>
+                                <img src="img/tourismap.png" class="img-responsive img-centered" alt="">
+                                <p>This app was made for the WWDC Scolarship and unfortunately it was rejected. It's an app for tourists that features a map and fetches you interests in the area you're in. Plus it gets you the weather for that place. <b>Bonus:</b> this app was made in less than 12 hours.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            Apple WWDC Scolarship
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>April 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>iOS Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Home Security System</h2>
+                                <img src="img/raspberrypi.png" class="img-responsive img-centered" alt="">
+                                <p>The Raspberry Pi Home Security System was project done for a competition between schools. I represented my school, built a wooden house and then automated its security with the Raspberry Pi 2. I installed an LCD screen which I programmed without a module, connected to a number keypad set to enter the code to unlock the house. Inside was infrared sensors at every room entrance and a camera beside the main door, plus a buzzer which would make a loud sound in case the security system was breached.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            IEA Raspberry Pi Competition
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>March 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Raspberry Pi System, Hardware and Software.
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>LLN iOS App</h2>
+                                <img src="img/lln.png" class="img-responsive img-centered" alt="">
+                                <p>This is an iOS app that I made for my own school. It's a simple blog reader app that fetches its data from a wordpress blog and parses it using Objective-C and Swift and then displays it in a table view. The app also supports push notifications managed by an online server.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            Le Lycee National School
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>Summer 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>iOS Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>iGrab</h2>
+                                <img src="img/igrab.png" class="img-responsive img-centered" alt="">
+                                <p>iGrab is an in progress website projects by myself and my partner. It's a website that gives the user the best software to download on his computer regarding what he needs.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            None
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>Winter 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Web Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Facebook UI</h2>
+                                <img src="img/fbredesign.png" class="img-responsive img-centered" alt="">
+                                <p>This was a simple project made for fun. I redesigned the feed and login screen of Facebook's iOS App into a flatier look (back then).</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            None
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>Summer 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>UI Design
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 7 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Pro Online Store Logo</h2>
+                                <img src="img/proonlinestore.png" class="img-responsive img-centered" alt="">
+                                <p>This was a logo fully designed by me, inspired by one posted on dribbble with some modifications and improvments to it. It was made for an entrepreneurship in Lebanon.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            Pro Online Store
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>July 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Logo Design
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 8 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>YG Portfolio Website</h2>
+                                <img src="img/ygwebsite.png" class="img-responsive img-centered" alt="">
+                                <p>This is a portfolio webpage that I built using bootstrap and some jquery for a client and a friend in Egypt.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            Youssef Gamal
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>Winter 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Web Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 9 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Line Art City</h2>
+                                <img src="img/linecity.png" class="img-responsive img-centered" alt="">
+                                <p>A simple graphic side project that was made also for fun with the help of Tuts+. A city made with lines, simply.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                            None
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>June 2016
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Graphic Design
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun Modals -->
+
+        <!-- Fun Modal 1 -->
+        <div class="portfolio-modal modal fade" id="funModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>7.93 seconds solve</h2>
+                                <!-- <img src="img/cubing1.png" class="img-responsive img-centered" alt=""> -->
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/XSf1OqwsDxc" frameborder="0" allowfullscreen></iframe>
+                                <br>
+                                <p>A Rubik's cube solve in a bit less than 8 seconds.</p>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun Modal 2 -->
+        <div class="portfolio-modal modal fade" id="funModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>8.70 seconds solve</h2>
+                                <!-- <img src="img/cubing2.png" class="img-responsive img-centered" alt=""> -->
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/0OJwJdaauao" frameborder="0" allowfullscreen></iframe>
+                                <br>
+                                <p>A Rubik's cube solve in a less than 9 seconds.</p>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun Modal 3 -->
+        <div class="portfolio-modal modal fade" id="funModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>16.97 seconds solve</h2>
+                                <!-- <img src="img/cubing3.png" class="img-responsive img-centered" alt=""> -->
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/uZve8RGD4gQ" frameborder="0" allowfullscreen></iframe>
+                                <br>
+                                <p>A Rubik's cube solve in a bit less than 17 seconds.</p>
+                                <button type="button" class="close-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <!-- TypedJS for the type writer animation -->
+    <script src="js/typed.js"></script>
+
+    <!-- Main script for index.html -->
+    <script src="js/script.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+</body>
+</html>
