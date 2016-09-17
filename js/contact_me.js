@@ -1,3 +1,5 @@
+// Javascript file for contact form front-end processing
+
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
