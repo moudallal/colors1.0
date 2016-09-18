@@ -808,17 +808,18 @@ footer .footer-above p {
 footer .footer-above li {
     margin-right: 3px;
     margin-left: 3px;
+    width: 2.35em;
+    height: 2.35em;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
 }
 
 footer .footer-above li a {
     animation-name: colorChanger;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
     font-size: 1.2em;
-
 }
 
 footer .footer-below {
