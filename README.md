@@ -9,7 +9,7 @@ It took about 3 weeks of work to complete (procrastination included).
 ### Open-Source Code
 There was some open source code that I used in my website such as [typed.js](https://github.com/mattboldt/typed.js/), and some other code by tutorials from codrops, and tiny chunks of code from other websites.
 
-###Inspiration
+### Inspiration
 This website was inspired by [Cubezapp](https://github.com/unixpickle/cubezapp) website regarding colors and strangely by [Far Cry 4](far-cry.ubisoft.com/fc4/en-gb/home/) game regarding text borders and stuff.
 
 ### TODO
